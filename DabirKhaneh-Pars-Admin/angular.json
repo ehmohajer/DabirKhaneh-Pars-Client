@@ -28,9 +28,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/fonts/feather/style.min.css",
+              "src/assets/fonts/simple-line-icons/style.css",
+              "src/assets/fonts/font-awesome/css/font-awesome.min.css",
+              "src/assets/vendors/css/prism.min.css",
+              "src/assets/css/app.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/styles.css",
+              "node_modules/@syncfusion/ej2/material.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendors/js/core/jquery-3.3.1.min.js",
+              "src/assets/vendors/js/core/bootstrap.min.js",
+              "src/assets/vendors/js/jquery.matchHeight-min.js",
+              "src/assets/vendors/js/screenfull.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "DabirKhaneh-Pars-Admin"
+  "defaultProject": "DabirKhaneh-Pars-Admin",
+  "cli": {
+    "analytics": false
+  }
 }
